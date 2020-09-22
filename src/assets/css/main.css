@@ -83,7 +83,8 @@ nav ul li:last-child a {
   color: #0175d8;
 }
 
-nav .dropdown-button {
+nav .dropdown-button,
+nav .dropdown-menu {
   display: none;
 }
 
