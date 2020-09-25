@@ -11,10 +11,12 @@ export default function Header({ history }) {
 
   return (
     <nav>
-      <div className="logo">
-        <img src={LogoIcon} alt="Logo Icon" />
-        HomeRent
-      </div>
+      <Link to="/">
+        <div className="logo">
+          <img src={LogoIcon} alt="Logo Icon" />
+          HomeRent
+        </div>
+      </Link>
 
       <ul>
         <li>
