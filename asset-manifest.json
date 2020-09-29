@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/apartment/static/css/main.3cfd38f8.chunk.css",
-    "main.js": "/apartment/static/js/main.b9d78cf3.chunk.js",
-    "main.js.map": "/apartment/static/js/main.b9d78cf3.chunk.js.map",
+    "main.css": "/apartment/static/css/main.79f0b2ac.chunk.css",
+    "main.js": "/apartment/static/js/main.d9bc0a9e.chunk.js",
+    "main.js.map": "/apartment/static/js/main.d9bc0a9e.chunk.js.map",
     "runtime-main.js": "/apartment/static/js/runtime-main.5f555557.js",
     "runtime-main.js.map": "/apartment/static/js/runtime-main.5f555557.js.map",
-    "static/js/2.7db7daa5.chunk.js": "/apartment/static/js/2.7db7daa5.chunk.js",
-    "static/js/2.7db7daa5.chunk.js.map": "/apartment/static/js/2.7db7daa5.chunk.js.map",
+    "static/js/2.63d00929.chunk.js": "/apartment/static/js/2.63d00929.chunk.js",
+    "static/js/2.63d00929.chunk.js.map": "/apartment/static/js/2.63d00929.chunk.js.map",
     "index.html": "/apartment/index.html",
-    "precache-manifest.cde03b401daf8167d7532cb0d032d70c.js": "/apartment/precache-manifest.cde03b401daf8167d7532cb0d032d70c.js",
+    "precache-manifest.4fcad84de2f69bd0407537b29088cd68.js": "/apartment/precache-manifest.4fcad84de2f69bd0407537b29088cd68.js",
     "service-worker.js": "/apartment/service-worker.js",
-    "static/css/main.3cfd38f8.chunk.css.map": "/apartment/static/css/main.3cfd38f8.chunk.css.map",
-    "static/js/2.7db7daa5.chunk.js.LICENSE.txt": "/apartment/static/js/2.7db7daa5.chunk.js.LICENSE.txt",
+    "static/css/main.79f0b2ac.chunk.css.map": "/apartment/static/css/main.79f0b2ac.chunk.css.map",
+    "static/js/2.63d00929.chunk.js.LICENSE.txt": "/apartment/static/js/2.63d00929.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/apartment/static/media/2.515994c3.jpg",
     "static/media/3.jpg": "/apartment/static/media/3.40e349f2.jpg",
     "static/media/4.jpg": "/apartment/static/media/4.f149dde5.jpg",
@@ -22,6 +22,7 @@
     "static/media/bars-solid.svg": "/apartment/static/media/bars-solid.b3f49afd.svg",
     "static/media/bath-solid.svg": "/apartment/static/media/bath-solid.c9b153f4.svg",
     "static/media/bed-solid.svg": "/apartment/static/media/bed-solid.d21cabf7.svg",
+    "static/media/close.svg": "/apartment/static/media/close.2c5552a1.svg",
     "static/media/crop-alt-solid.svg": "/apartment/static/media/crop-alt-solid.066a9e96.svg",
     "static/media/logo.svg": "/apartment/static/media/logo.3838ffdd.svg",
     "static/media/search.svg": "/apartment/static/media/search.c6a0effb.svg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5f555557.js",
-    "static/js/2.7db7daa5.chunk.js",
-    "static/css/main.3cfd38f8.chunk.css",
-    "static/js/main.b9d78cf3.chunk.js"
+    "static/js/2.63d00929.chunk.js",
+    "static/css/main.79f0b2ac.chunk.css",
+    "static/js/main.d9bc0a9e.chunk.js"
   ]
 }
