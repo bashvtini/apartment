@@ -55,6 +55,21 @@ export default function Index({
                   </li>
                 ))}
             </ul>
+
+            <div className="apartment-text">
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                unde necessitatibus neque ex quasi dolorem?
+              </p>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur deserunt maxime repellendus? Vel consequuntur vero
+                corrupti, saepe culpa nostrum, harum earum repudiandae beatae
+                ullam voluptates temporibus deserunt error natus qui.
+              </p>
+            </div>
           </div>
         </div>
       </div>

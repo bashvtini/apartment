@@ -130,48 +130,62 @@ nav ul li:last-child a {
   color: #0175d8;
 }
 
-nav .dropdown-button,
-nav .dropdown-menu {
+nav .dropdown-button {
   display: none;
+}
+
+.dropdown-menu {
+  transform: translateX(-100%);
+  transition: transform 0.4s;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
 }
 
 nav .dropdown-button img {
   width: 20px;
 }
 
-.bc {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: var(--dark-text);
-  opacity: 0.5;
-  display: none;
+.dropdown-menu .close img {
+  width: 20px;
+}
+
+.dropdown-menu li {
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-menu li a {
+  padding: 20px;
+  width: 100%;
+  display: block;
+}
+
+.dropdown-menu .close {
+  padding: 20px;
+}
+
+.dropdown-menu.show {
+  transform: translateX(0);
 }
 
 @media (max-width: 700px) {
   nav .dropdown-button {
     display: block;
+    cursor: pointer;
   }
 
   nav ul {
     display: none;
   }
-
-  /* nav .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 40px;
-    left: -20px;
-    right: 0;
-    width: 100vw;
-    background-color: white;
-  }
-
-  nav .dropdown-menu li {
-    padding: 10px;
-  } */
 }
 
 /* Header ###### End ###### */
@@ -466,6 +480,11 @@ nav .dropdown-button img {
 
 .apartment-detail li img {
   width: 20px;
+  margin-right: 10px;
+}
+
+.apartment-text {
+  margin-top: 20px;
 }
 
 .map {
