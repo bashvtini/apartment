@@ -42,7 +42,6 @@ a {
 }
 
 body {
-  margin: 20px;
   background-color: #f8f9fe;
 }
 
@@ -97,6 +96,7 @@ nav {
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin: 20px 0;
 }
 
 nav .logo {
@@ -323,6 +323,7 @@ nav .dropdown-button img {
   border-radius: 20px;
   box-shadow: 0 0 12px #00000021;
   padding: 15px;
+  margin-top: 10px;
 }
 
 .card-poster {
@@ -507,13 +508,21 @@ nav .dropdown-button img {
 
 @media (max-width: 700px) {
   .apartment-content {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
 
+  .apartment-poster {
+    height: 200px;
+  }
+
   .apartment-location {
     display: none;
+  }
+
+  .apartment-info {
+    margin: 0;
   }
 }
 
